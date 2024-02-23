@@ -9,11 +9,14 @@
     "dev": "yarn clear && concurrently \"cd frontend && yarn dev\" \"cd backend && yarn develop\"",
     "seed": "cd backend && yarn strapi import -f ../seed-data.tar.gz",
     "export": "cd backend && yarn strapi export --no-encrypt -f ../seed-data",
-    "repo:upstream": "git fetch upstream && git merge upstream/main"
+    "repo:upstream": "git fetch upstream && git merge upstream/main",
+    "vercel-build": "npm run prepare && next build" 
+   
   },
   "dependencies": {
     "concurrently": "^8.2.2"
  
   }
   }
+
 
