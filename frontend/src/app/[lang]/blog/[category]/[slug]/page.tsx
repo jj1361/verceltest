@@ -1,3 +1,5 @@
+'use client'
+
 import { fetchAPI } from '@/app/[lang]/utils/fetch-api';
 import Post from '@/app/[lang]/views/post';
 import type { Metadata } from 'next';
