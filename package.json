@@ -13,5 +13,14 @@
   },
   "dependencies": {
     "concurrently": "^8.2.2"
+ 
+  },
+
+    "engines": {
+      "next": "^14.0.0"
+    }
+
+
+ 
   }
-}
+
