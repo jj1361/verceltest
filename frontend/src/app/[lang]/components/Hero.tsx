@@ -54,7 +54,7 @@ export default function Hero({ data }: HeroProps) {
             color="dark:text-violet-400"
           />
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-            {data.buttons.map((button: Button, index: number) => (
+            {data.buttons?.map((button: Button, index: number) => (
               <Link
                 key={index}
                 href={button.url}

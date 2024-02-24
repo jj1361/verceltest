@@ -1,9 +1,3 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/[lang]/[...slug]/page": "app/[lang]/[...slug]/page.js",
-  "/[lang]/page": "app/[lang]/page.js",
-  "/[lang]/hello/route": "app/[lang]/hello/route.js",
-  "/[lang]/blog/page": "app/[lang]/blog/page.js",
-  "/[lang]/blog/[category]/page": "app/[lang]/blog/[category]/page.js",
-  "/[lang]/blog/[category]/[slug]/page": "app/[lang]/blog/[category]/[slug]/page.js"
+  "/[lang]/page": "app/[lang]/page.js"
 }
