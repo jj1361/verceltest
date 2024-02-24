@@ -116,7 +116,7 @@ export default function Footer({
               ©{new Date().getFullYear()} All rights reserved
             </span>
             <ul className="flex">
-              {legalLinks.map((link: FooterLink) => (
+              {legalLinks?.map((link: FooterLink) => (
                 <Link
                   href={link.url}
                   className="text-gray-400 hover:text-gray-300 mr-2"

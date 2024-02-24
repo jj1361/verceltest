@@ -76,7 +76,7 @@ export default function Navbar({
 
         <div className="items-center flex-shrink-0 hidden lg:flex">
           <ul className="items-stretch hidden space-x-3 lg:flex">
-            {links.map((item: NavLink) => (
+            {links?.map((item: NavLink) => (
               <NavLink key={item.id} {...item} />
             ))}
           </ul>
@@ -108,7 +108,7 @@ export default function Navbar({
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-700">
                 <div className="space-y-2 py-6">
-                  {links.map((item) => (
+                  {links?.map((item) => (
                     <MobileNavLink
                       key={item.id}
                       closeMenu={closeMenu}
